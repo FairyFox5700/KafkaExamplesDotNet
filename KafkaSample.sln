@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaSampleProducerConsumer", "KafkaSampleProducerConsumer\KafkaSampleProducerConsumer.csproj", "{36B88D17-0F42-426B-A714-DD10AFE5D457}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WikiEdits", "WikiEdits", "{7F796D4B-587B-4032-8E7A-D8FF1D64BA1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiEditsProducer", "WikiEdits\WikiEditsProducer\WikiEditsProducer.csproj", "{AAC1C1CF-6062-40FF-8121-82224BB45CC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiEditsConsumer", "WikiEdits\WikiEditsConsumer\WikiEditsConsumer.csproj", "{AE84305C-5155-4762-AC2D-D136AF8BE35C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36B88D17-0F42-426B-A714-DD10AFE5D457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B88D17-0F42-426B-A714-DD10AFE5D457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B88D17-0F42-426B-A714-DD10AFE5D457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B88D17-0F42-426B-A714-DD10AFE5D457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC1C1CF-6062-40FF-8121-82224BB45CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC1C1CF-6062-40FF-8121-82224BB45CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC1C1CF-6062-40FF-8121-82224BB45CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC1C1CF-6062-40FF-8121-82224BB45CC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE84305C-5155-4762-AC2D-D136AF8BE35C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE84305C-5155-4762-AC2D-D136AF8BE35C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE84305C-5155-4762-AC2D-D136AF8BE35C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE84305C-5155-4762-AC2D-D136AF8BE35C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AAC1C1CF-6062-40FF-8121-82224BB45CC2} = {7F796D4B-587B-4032-8E7A-D8FF1D64BA1E}
+		{AE84305C-5155-4762-AC2D-D136AF8BE35C} = {7F796D4B-587B-4032-8E7A-D8FF1D64BA1E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E512E055-EBDE-4595-BC7D-86980BAB56CE}
+	EndGlobalSection
+EndGlobal
